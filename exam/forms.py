@@ -4,6 +4,8 @@ from crispy_forms.layout import Submit
 from exam.models import Student
 
 class StudentForm(forms.ModelForm):
+
+
     class Meta:
         model = Student
         fields = ('register_no', 'student_name', 'student_email', 'student_marks')

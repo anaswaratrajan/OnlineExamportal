@@ -7,7 +7,6 @@ from django.views.generic import UpdateView
 # Create your views here.
 from django.http import HttpResponse
 
-
 class AddStudent(CreateView):
     model = Student
     fields = ('register_no', 'student_name', 'student_email', 'student_marks')
