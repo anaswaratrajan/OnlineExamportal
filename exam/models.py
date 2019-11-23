@@ -10,6 +10,7 @@ class Questions(models.Model):
     answer_choice_three = models.CharField(max_length=50)
     answer_choice_four = models.CharField(max_length=50)
 
+
     def __str__(self):
         number = str(self.question_no)
         return number
