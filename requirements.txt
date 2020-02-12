@@ -4,7 +4,7 @@ certifi==2019.9.11
 chardet==3.0.4
 Click==7.0
 cookiecutter==1.6.0
-Django==2.2.8
+Django==2.2.10
 django-crispy-forms==1.8.1
 future==0.17.1
 gitdb2==2.0.6
